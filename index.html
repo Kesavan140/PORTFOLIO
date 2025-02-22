@@ -8,11 +8,13 @@
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="mediaqueries.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
 </head>
 
 <body id="body">
 
-            <!-- NAV -->
+  <!-- NAV -->
 
   <nav id="desktop-nav">
     <div class="logo">KESAVAN M</div>
@@ -44,7 +46,7 @@
     </div>
   </nav>
 
-            <!-- PROFILE -->
+  <!-- PROFILE -->
 
   <section id="profile">
     <div class="section__pic-container">
@@ -62,16 +64,34 @@
           Contact Info
         </button>
       </div>
-      <div id="socials-container">
+      <ul class="wrapper">
+        <a href="https://github.com/Kesavan140">
+          <li class="icon github">
+            <span><i class="fab fa-github">
+              </i></span>
+          </li>
+        </a>
+        <a href="https://www.linkedin.com/in/m-kesavan-2507b6322">
+          <li class="icon linkdin">
+            <span><i class="fab fa-linkedin"></i></span>
+          </li>
+        </a>
+        <a href="https://www.instagram.com/_k_e_s_a_v_a_/">
+          <li class="icon instagram">
+            <span><i class="fab fa-instagram"></i></span>
+          </li>
+        </a>
+      </ul>
+      <!-- <div id="socials-container">
         <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
           onclick="location.href='https://www.linkedin.com/in/m-kesavan-2507b6322'" />
         <img src="./assets/github.png" alt="My Github profile" class="icon"
           onclick="location.href='https://github.com/Kesavan140'" />
       </div>
-    </div>
+    </div> -->
   </section>
 
-            <!-- ABOUT -->
+  <!-- ABOUT -->
 
   <section id="about">
     <p class="section__text__p1">Get To Know More</p>
@@ -86,7 +106,7 @@
             <img src="./assets/experience.png" alt="Experience icon" class="icon" />
             <h3>Familiarty</h3>
             <p>Student<br /> But have a good understanting in Frontend Development like, html css JavaScript
-            react.js and github.</p>
+              react.js and github.</p>
           </div>
           <div class="details-container">
             <img src="./assets/education.png" alt="Education icon" class="icon" />
@@ -107,7 +127,7 @@
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'" />
   </section>
 
-            <!-- SKILLS -->
+  <!-- SKILLS -->
 
   <section id="skills">
     <p class="section__text__p1">Explore My</p>
@@ -165,36 +185,36 @@
     </div>
   </section>
 
-            <!-- PROJECTS -->
+  <!-- PROJECTS -->
 
   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
     <center>
-        <div class="experience-details-container">
-          <div class="about-containers">
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img src="./assets/project-1.png" alt="Project 1" class="project-img " />
-              </div>
-              <h2 class="experience-sub-title project-title">Project One</h2>
-              <div class="btn-container">
-                <button class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/Kesavan140/webe.project'">
-                  Github
-                </button>
-                <button class="btn btn-color-2 project-btn" onclick="location.href='https://Webe-service.netlify.app/'">
-                  Live Demo
-                </button>
-              </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-1.png" alt="Project 1" class="project-img " />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Kesavan140/webe.project'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://Webe-service.netlify.app/'">
+                Live Demo
+              </button>
             </div>
           </div>
         </div>
+      </div>
     </center>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
   </section>
 
-            <!-- CONTACT -->
+  <!-- CONTACT -->
 
   <section id="contact">
     <p class="section__text__p1">Get in Touch</p>
@@ -211,7 +231,7 @@
     </div>
   </section>
 
-             <!-- FOOTER -->
+  <!-- FOOTER -->
 
   <footer>
     <nav>
@@ -231,4 +251,5 @@
   <script src="script.js"></script>
 
 </body>
+
 </html>

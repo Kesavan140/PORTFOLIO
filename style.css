@@ -16,13 +16,14 @@ body {
 html {
   scroll-behavior: smooth;
 }
-.about-me-summary{
+
+.about-me-summary {
   text-align: justify;
 }
 
 p {
   /* color: rgb(85, 85, 85); */
-  font-size:large;
+  font-size: large;
 }
 
 /* TRANSITION */
@@ -58,7 +59,7 @@ a {
 }
 
 a:hover {
-  color:white;
+  color: white;
   /* text-decoration: underline; */
   /* text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181); */
@@ -248,11 +249,11 @@ section {
 .btn-color-1,
 .btn-color-2:hover {
   background: rgb(53, 53, 53);
-  color:black;
+  color: black;
 }
 
 .btn-color-1:hover {
-  background:white;
+  background: white;
 }
 
 .btn-color-2 {
@@ -327,7 +328,7 @@ section {
 }
 
 .experience-sub-title {
-  color:rgb(43, 39, 39);
+  color: rgb(43, 39, 39);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -437,7 +438,7 @@ footer p {
   text-align: center;
 }
 
-.profile_pic1{
+.profile_pic1 {
   max-width: 300px;
   min-width: 100px;
   max-height: 300px;
@@ -502,17 +503,24 @@ wrapper {
 .linkdin {
   --color: #1877f2;
 }
+
 .instagram {
   --color: #e4405f;
 }
+
 .github {
   --color: #333333;
 }
-
 
 .icon:hover,
 .icon:hover .tooltip,
 .icon:hover .tooltip::before {
   background: var(--color);
   color: white;
+}
+
+#project-container,
+#project-container {
+  width: 45%;
+  height: 45%;
 }
